@@ -1,0 +1,7 @@
+numeros = []
+for valor in range(1, 11):
+    add = input("Digite um número: ")
+    numeros.append(add)
+valormax = max(numeros)
+posicao = numeros.index(valormax)
+print("{} na posição {}".format(valormax,posicao))
